@@ -24,6 +24,14 @@ Where:
 * **F** and **F⁻¹** denote the Fast Fourier Transform (FFT) and Inverse Fast Fourier Transform (IFFT).
 * **R_φ** represents a parameterized complex-valued weight matrix filtering truncated lower-frequency modes.
 
+
+## Multi-Dimensional Operator Learning
+
+### 2D Incompressible Navier-Stokes Vorticity Trajectories
+The architecture expands from 1D Burgers' equation to 2D spatial fluid flow ($X \times Y$ mesh grids) using 2D Real Fourier Transforms (`rfft2` / `irfft2`):
+
+![2D Navier Stokes FNO Prediction](assets/fno_2d_navier_stokes.png)
+
 ---
 
 ## Directory Architecture
